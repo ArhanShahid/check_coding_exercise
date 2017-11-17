@@ -1,9 +1,8 @@
-# Check24 Coding Exetcise
+# Check Coding Exetcise
 Loan comparison Angular2 web application.
 
 ### Prerequisite
 * [Node JS](https://nodejs.org/ "Nodejs")
-* [MongoDB](https://www.mongodb.com/ "MongoDB")
 
 #### How to run Back End
 
