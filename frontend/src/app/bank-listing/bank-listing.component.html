@@ -1,0 +1,51 @@
+<div class="bank-listing">
+  <div class="card">
+    <div class="card-header">
+      <i class="fa fa-align-justify"></i>Listing
+    </div>
+    <div class="card-block">
+      <table class="table table-bordered table-hover table-sm">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Bank</th>
+            <th>Max Interest</th>
+            <th>Min Interest</th>
+            <th>Monthly Rate</th>
+            <th>Total Loan Amount</th>
+            <th>Flags</th>
+            <th>View</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of list;let i=index">
+            <td>{{i + 1}}</td>
+            <td class="text-capitalize">
+              {{data.bank}}
+            </td>
+            <td>
+              {{data.interestMax}}
+            </td>
+            <td>
+              {{data.interestMin}}
+            </td>
+            <td>
+              {{data.monthlyRate}}
+            </td>
+            <td>
+              {{data.totalLoanAmount}}
+            </td>
+            <td>
+              <span class="text-capitalize" *ngFor="let flag of data.flags;let i=index">{{flag}},</span>
+            </td>
+            <td>
+              <a routerLinkActive="active" [routerLink]="['../application']" class="btn btn-info btn-block btn-sm">View</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+</div>

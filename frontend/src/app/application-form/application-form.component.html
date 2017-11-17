@@ -1,0 +1,58 @@
+<div class="application-form">
+  <div class="col-md-6 offset-md-3 marginTop30px">
+    <div class="card">
+      <form #applicationForm="ngForm" (ngSubmit)="onSubmit(applicationForm)">
+        <div class="card-header">
+          <i class="fa fa-align-justify"></i>Application
+        </div>
+        <div class="card-block">
+          <div class="form-group">
+            <label for="title">Title</label>
+            <select id="title" name="title" [(ngModel)]="data.title" class="form-control">
+              <option value="mr" selected>Mr.</option>
+              <option value="ms">Ms.</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="first-name">First name</label>
+            <input type="text" id="firstName" name="first-name" class="form-control" [(ngModel)]="data.firstName" placeholder="Enter First Name...">
+          </div>
+
+          <div class="form-group">
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" name="last-name" class="form-control" [(ngModel)]="data.LastName" placeholder="Enter Last name...">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-control" [(ngModel)]="data.email" placeholder="Enter Email...">
+          </div>
+
+          <div class="form-group">
+            <label for="birthday">Birthday</label>
+            <!-- <input type="text" id="birthday" name="birthday" class="form-control" [(ngModel)]="data.birthday" placeholder="Enter Birthday..."> -->
+            <my-date-picker name="birthday" id="birthday" (dateChanged)="dateChanged($event)" [options]="datePickerOptions" [(ngModel)]="data.birthday"></my-date-picker>
+          </div>
+
+          <div class="form-group">
+            <label for="zip">Zip code</label>
+            <input type="text" id="zip" name="zip" class="form-control" [(ngModel)]="data.zip" placeholder="Enter Zip...">
+          </div>
+
+          <div class="form-group">
+            <label for="street">Street name</label>
+            <input type="text" id="street" name="street" class="form-control" [(ngModel)]="data.street" placeholder="Enter Street...">
+          </div>
+        </div>
+        <div class="card-footer">
+          <button type="submit" class="btn btn-success btn-sm btn-primary"> Submit </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!--Toaster Message-->
+<toaster-container></toaster-container>
+<ng-loading-bar></ng-loading-bar>

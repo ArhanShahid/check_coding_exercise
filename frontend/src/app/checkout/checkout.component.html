@@ -1,0 +1,16 @@
+<div class="app flex-row chackout">
+  <div class="container-fluid">
+
+    <div class="col-md-8 offset-md-2 marginTop30px">
+      <search-header [amount]="data.result?.loanAmount" [duration]="data.result?.duration" [purpose]="data.result?.purpose"></search-header>
+    </div>
+
+    <div class="col-md-10 offset-md-1 marginTop30px">
+      <bank-listing [list]="data.result?.result"></bank-listing>
+    </div>
+  </div>
+</div>
+
+<!--Toaster Message-->
+<toaster-container></toaster-container>
+<ng-loading-bar></ng-loading-bar>

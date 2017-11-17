@@ -1,0 +1,47 @@
+{
+  "bank": {
+	"name": "Bank of Scotland",
+	"numberOfFeedbacks": 2102,
+	"stars": 4.59,
+	"summaryText": "Angesichts ihrer Gründung im Jahr 1695 ist die Bank of Scotland eines der traditionsreichsten Geldhäuser Europas. Neben dem Hauptsitz in der schottischen Hauptstadt Edinburgh verfügt die Bank of Scotland über zahlreiche Niederlassungen in Holland, Spanien, den USA und Deutschland. Im Jahr 2009 wurde die Privat- und Geschäftskundenbank Teil der Lloyd Banking Group und gehört damit zu einem der weltweit größten Finanzdienstleistern. Die Bank of Scotland hat zwar ihre deutsche Hauptniederlassung in Berlin, ist für ihre Kunden als Onlinebank jedoch ausschließlich über das Internet erreichbar. Von diesem Verzicht auf ein kostspieliges Filialsystem profitieren insbesondere die Kunden der Bank durch besonders gute Konditionen. Die Kundenbetreuung findet bei der Bank of Scotland per Email oder über die täglich erreichbare Hotline statt. Ihren Kunden stets ein zuverlässiger und seriöser Partner zu sein, ist das Hauptanliegen der Bank - Transparenz ist die höchste Maxime bei den angebotenen Produkten der Bank of Scotland. Über die verschiedenen Finanzvergleiche von CHECK24 können Kunden neben einem renditestarken Tagesgeldkonto auch einen zinsgünstigen Autokredit vergleichen und beantragen.",
+	"banktype": "Direktbank",
+	"businessAreacode": "10178",
+	"businessCity": "Berlin",
+	"businessEntityType": "PLC",
+	"businessName": "Bank of Scotland - Niederlassung Berlin",
+	"businessStreet": "Karl-Liebknecht-Straße",
+	"businessStreetNr": "5",
+	"foundingYear": 1695,
+	"numberOfEmployees": 0,
+	"placeOfBusiness": "Edinburgh, GB",
+	"serviceInfo": [
+	  "Sondertilgungen sind jederzeit kostenlos möglich",
+	  "Vorzeitige Rückzahlung des Restkreditbetrages ist kostenlos möglich"
+	],
+	"requirementsAndConditions": [
+	  "Der/die Kreditnehmer ist/sind volljährig",
+	  "Der/die Kreditnehmer hat/haben seinen/ihren ständigen Wohnsitz in Deutschland",
+	  "Der/die Kreditnehmer hat/haben eine deutsche Bankverbindung",
+	  "Bei der Beantragung mit einem zweiten Kreditnehmer müssen beide Antragssteller unter der gleichen Adresse wohnen",
+	  "Der/die Kreditnehmer hat/haben keine negativen SCHUFA-Einträge",
+	  "Einzureichende Unterlagen: Lohn-/Gehaltsabrechnungen der letzten 3 Monate in Kopie (aktueller Rentenbescheid bei Rentnern in Kopie) und vollständige Kontoauszüge des Lohn-/Gehaltskontos der letzten 4 Wochen in lückenloser Reihenfolge und ohne Schwärzungen in Kopie",
+	  "Der/die Kreditnehmer treten den jeweils pfändbaren Teil der gegenwärtigen und künftigen Lohn- und Gehaltszahlungen ab"
+	],
+	"testReports": [
+	  {
+		"longText": "Die Tageszeitung DIE WELT f&uuml;hrt gemeinsam mit Service-Value und der Goethe-Universit&auml;t Frankfurt j&auml;hrlich das bundesweit gr&ouml;&szlig;te Service-Ranking zur gelebten Servicequalit&auml;t in &uuml;ber 1.000 unterschiedlichen Unternehmen durch - im Jahr 2015 &uuml;berzeugte die Direktbank Bank of Scotland die Tester und wurde mit dem Siegel \"Service Champion Gold\" ausgezeichnet. W&auml;hrend der Analyse bewerteten Kunden der untersuchten Direktbanken die Kundenbetreuung und vergaben eine Bewertung zum erlebten Service. In diesem Jahr belegte die Bank of Scotland in diesem Ranking den ersten Platz.&nbsp;",
+		"medium": "Die Welt",
+		"reportDate": "2015-08-01",
+		"shortText": "Die Bank of Scotland wurde in einer im August 2015 stattfindenden Untersuchung des Marktforschungsunternehmens Service Value und der Tageszeitung die Welt als Service-Champion in der Kategorie Direktbanken ausgezeichnet.",
+		"title": "Service-Champion Gold der Direktbanken"
+	  },
+	  {
+		"longText": "Im Rahmen einer umfassenden Studie im April 2015 hat das Wirtschaftsmagazin FOCUS Money gemeinsam mit dem Marktforschungsinstitut ServiceValue ingesamt 14 Direktbanken im Hinblick auf ihre Fairness beurteilt. Dabei wurde die Bank of Scotland - gemeinsam mit vier weiteren Instituten - mit dem Gesamturteil \"sehr gut\" ausgezeichnet. Die schottische Traditionsbank &uuml;berzeugte die Tester dabei insbesondere aufgrund des fairen Preis-Leistungsverh&auml;ltnisses ihrer Produkte und der besonders fairen Kundenberatung. In den zudem analysierten Bereichen Produkt- und Leistungsangebot sowie Kundenservice sicherte sich die Bank of Scotland jeweils die Note \"gut\".&nbsp;F&uuml;r die Wettbewerbsanalyse zur Fairness von Direktbanken werteten ServiceValue und FOCUS Money insgesamt mehr als 1.500 Erfahrungsberichte von 1.194 Kunden aus. Die Befragten konnten in der im Februar und M&auml;rz 2015 durchgef&uuml;hrten Online-Befragung jeweils maximal drei der getesteten 14 Direktbanken beurteilen, bei denen sie innerhalb der vorangegangen zw&ouml;lf Monate selbst Kunde waren.&nbsp;",
+		"medium": "FOCUS-MONEY",
+		"reportDate": "2015-04-01",
+		"shortText": "In Zusammenarbeit mit dem Marktforschungsunternehmen ServiceValue GmbH hat das Magazin FOCUS Money im Frühjahr 2015 14 Direktbanken bezüglich deren Fairness getestet und die Bank of Scotland mit der Gesamtnote \"sehr gut\" ausgezeichnet.",
+		"title": "Fairste Direktbank"
+	  }
+	]
+  }
+}

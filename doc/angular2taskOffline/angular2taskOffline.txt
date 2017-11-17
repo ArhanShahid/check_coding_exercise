@@ -1,0 +1,42 @@
+Frontend Web Developer (Loan) 
+
+TASK:	Create a responsive loan comparison Angular2 web application. 
+	You can get inspiration for the design and functionalities here:
+	https://kredit.check24.de
+
+STEPS:
+	1.	GIT:
+		Check out the QuickStart repository from Github
+		https://github.com/angular/quickstart.git
+
+	2.	REST-API:
+		Create a rest service that delivers the given JSON.
+
+	3.	ANGULAR 2:
+		Create a component that will show a basic table layout with the given data.
+
+	4.	VIEWS/ROUTING:
+		The user wants to click on a single result and get to the application form.
+		Implement a second view with a basic form that includes the following data:
+			- Title 		(Mr./Ms. dropdown)
+			- First name
+			- Last name
+			- Email
+			- Birthday
+			- Zip code
+			- Street name /-number
+
+	5.	VALIDATION:
+		Implement the client side validation for the user data as follows:
+			- Title			(must be selected)
+			- First name 		(min 3 characters, max 10 characters)
+			- Last name 		(min 2 characters, max 20 characters)
+			- Email 		(valid email address)
+			- Birthday		(format dd.mm.YYYY)
+			- Zip code		(5 digits)
+			- Street name		(min 3 characters, max 30 characters)
+			- Street number		(digits, followed by optional string)
+
+	6.	REST-API COMMUNICATION:
+		Implement a REST-API endpoint that will store the user data in JSON format to the disk. 
+		Please make sure that every application will get its own ID (incremental).
